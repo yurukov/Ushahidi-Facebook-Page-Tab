@@ -1,0 +1,153 @@
+/* Handcoded by RapidxHTML - http://www.rapidxhtml.com */
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+    margin: 0;
+    padding: 0;
+}
+
+fieldset,img{
+    border: 0;
+}
+
+html{
+    height: 100%;
+    margin-bottom: 1px;
+}
+
+body{
+    position: relative;
+}
+
+/* links */
+a{
+    color: #3764aa;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #008cff;
+    text-decoration: underline;
+}
+
+/* header elements */
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 150%;
+    color: #004276;
+}
+
+h2{
+    font-size: 125%;
+    color: #004276;
+    margin-bottom: .2em;
+}
+
+h3{
+    font-size: 150%;
+    color: #333333;
+}
+
+h4{
+    font-size: 175%;
+    color: #333333;
+}
+
+h5{
+    font-size: 150%;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+h6{
+    font-size: 125%;
+    color: #333333;
+}
+
+/* page setup */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 12px;
+}
+
+
+
+/* map */
+div.map {
+    border: none;
+    width: 520px;
+    height: 600px;
+    position:relative;
+    clear: both;
+}
+#mapStatus
+{
+	display:none;
+	float: left;
+	background-color: #e1e1e1;
+	border-left: solid 1px #999;
+	border-right: solid 1px #999;
+	border-bottom: solid 1px #999;
+	font-size: 10px;
+	width: 573px;
+}
+#mapStatus div
+{
+	float: left;
+	display: inline-block;
+	padding: 4px 6px 4px 6px;
+}
+#mapOutput sup
+{
+	height: 0;
+	line-height: 1;
+	vertical-align: text-top;
+	_vertical-align: text-top;
+	position: relative;
+	font-size: 8px;
+}
+
+/* submit incident */
+div.submit-incident{
+    margin: 20px 0 20px 20px;
+    float: right;
+}
+
+div.submit-incident a{
+    padding: 8px 10px 8px 35px;
+    background: #368C00 url(/themes/default/images/submit-incident.jpg) 10px 8px no-repeat;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+}
+
+/* logo */
+div#logo{
+    border: 0;
+    padding: 10px 20px;
+}
+div#logo h1{
+	margin:0;
+	padding:0;
+	font-size: 20px;
+}
+
+div#logo a {
+	text-decoration: none;
+}
+
+div#logo span{
+	font-size:14px;
+}
+
+
