@@ -1,0 +1,3 @@
+This is a simple map view that can be used for a Facebook Page Tab.
+
+Please note that as of 1. October 2011, Facebook requires HTTPS for external tabs. Therefore you'll need to have an ssl certificate for your domain.
